@@ -24,12 +24,12 @@ export default function Menu() {
           duration: 3,
           delay: 1.5
         }}
-        className="top-[3%] right-[5%] z-[60] m-5 cursor-pointer fixed font-thin"
+        className="top-0 lg:top-[3%] right-[50%] translate-x-1/2 lg:right-[5%] z-[60] m-5 cursor-pointer fixed font-thin"
         onClick={() => setIsOpen(!isOpen)} >  <FaCampground size={75} />
       </motion.div>
       <AnimatePresence>
         {isOpen &&
-          <motion.div className="fixed right-0 bg-[#405c334d] w-full h-screen lg:w-1/4 lg:h-screen z-50 font-thin "
+          <motion.div className="fixed right-0  bg-[#405c33] lg:bg-[#405c334d] w-full h-screen lg:w-1/4 lg:h-screen z-50 font-thin "
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}

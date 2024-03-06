@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5c493c45.css",
-    "main.js": "/static/js/main.f81b55dc.js",
+    "main.css": "/static/css/main.fd65ebd0.css",
+    "main.js": "/static/js/main.8c2b8d25.js",
     "static/media/grid4.jpg": "/static/media/grid4.dad8cbae6a125eb7f0a2.jpg",
     "static/media/kamper1.jpg": "/static/media/kamper1.c666d0fbbe8d8e6cd43a.jpg",
     "static/media/grid6.jpg": "/static/media/grid6.ac31464e5db2ad0c17b9.jpg",
@@ -121,11 +121,11 @@
     "static/media/Roslindale-TextBold-Testing.woff2": "/static/media/Roslindale-TextBold-Testing.a5383d2613e151c19c4b.woff2",
     "static/media/Roslindale-TextRegular-Testing.woff2": "/static/media/Roslindale-TextRegular-Testing.9e0cda3850a46845ba6a.woff2",
     "index.html": "/index.html",
-    "main.5c493c45.css.map": "/static/css/main.5c493c45.css.map",
-    "main.f81b55dc.js.map": "/static/js/main.f81b55dc.js.map"
+    "main.fd65ebd0.css.map": "/static/css/main.fd65ebd0.css.map",
+    "main.8c2b8d25.js.map": "/static/js/main.8c2b8d25.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c493c45.css",
-    "static/js/main.f81b55dc.js"
+    "static/css/main.fd65ebd0.css",
+    "static/js/main.8c2b8d25.js"
   ]
 }

@@ -15,7 +15,7 @@ export default function Loading() {
   transition={{ type: "tween",
   duration: 1,
   delay: .5 }}>
-            <FaCampground size={55}/></motion.div>
+           <div className ="text-2xl lg:text-5xl"> <FaCampground/></div></motion.div>
    <motion.div
    className ="text-7xl m-10"
    initial={{y: -2000}}
@@ -23,7 +23,7 @@ export default function Loading() {
   transition={{ type: "tween",
   duration: 1,
   delay: .5}}>
-            Wildcamp</motion.div>
+           <div className="text-2xl lg:text-5xl">Wildcamp</div></motion.div>
     </motion.div>
   )
 }

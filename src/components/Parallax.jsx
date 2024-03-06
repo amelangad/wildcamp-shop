@@ -26,7 +26,7 @@ const red ="rgba(230,63,63,1)"
   return (
     <AnimatePresence>
  <div ref={ref} className="w-full h-screen overflow-hidden relative flex justify-center ">
-      <motion.h1 className="text-7xl md:text-9xl relatve pt-[40%] lg:pt-[5%] tracking-tighter z-10 font-bold"
+      <motion.h1 className="text-5xl md:text-7xl lg:text-9xl relatve pt-[40%] lg:pt-[5%] tracking-tighter z-10 font-bold"
         style={{ y: textY, color: background}}
         transition={{
         }}>WILDCAMP
