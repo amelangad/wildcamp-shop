@@ -24,8 +24,8 @@ export default function Menu() {
           duration: 3,
           delay: 1.5
         }}
-        className="top-0 lg:top-[3%] translate-x-1/2 lg:right-[5%] z-[60] m-5 cursor-pointer fixed font-thin"
-        onClick={() => setIsOpen(!isOpen)} >  <FaCampground size={75} />
+        className="top-0 lg:top-[3%]  right-[5%] z-[60] m-5 cursor-pointer fixed font-thin"
+        onClick={() => setIsOpen(!isOpen)} >  <div className ="text-5xl lg:text-7xl"><FaCampground/></div>
       </motion.div>
       <AnimatePresence>
         {isOpen &&

@@ -8,11 +8,11 @@ import { FaShoppingCart } from "react-icons/fa";
 
 function Offert() {
   return (
-    <div className="mt-40 w-screen h-auto z-60 flex flex-col  gap-[20%] justify-start items-center font-thin">
+    <div className="w-screen h-auto z-60 flex flex-col  gap-[20%] justify-start items-center font-thin">
       <Menu />
-      <ul id="offert" className="flex flex-col items-center justify-evenly gap-20 w-full min-h-screen py-[5%]">
+      <ul id="offert" className="mt-20 flex flex-col items-center justify-center gap-20 w-full min-h-screen py-[5%]">
         <motion.li
-          className="uppercase text-3xl"
+          className="uppercase text-2xl lg:text-3xl"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{
@@ -36,7 +36,7 @@ function Offert() {
             src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1374595.700209671!2d19.10774404131549!3d50.56999917254311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smiejsca%20kempingowe%20na%20dziko!5e0!3m2!1spl!2spl!4v1707140980467!5m2!1spl!2spl" width="600" height="450" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </motion.div>
         <motion.li
-          className="uppercase text-3xl"
+          className="uppercase text-2xl lg:text-3xl"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{
@@ -58,24 +58,24 @@ function Offert() {
             delay: 5,
             stiffness: 500,
           }}><Link to="/shop">Wejdź do  naszego sklepu! <p className ="m-5 flex justify-center items-center"><FaShoppingCart size={25} /></p></Link></motion.a>
-        <motion.li
-          className="uppercase text-4xl flex justify-center items-center "
+            <motion.li
+          className="uppercase text-2xl lg:text-3xl m-x-auto"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{
             type: "spring",
             duration: 5,
-            delay: 8,
+            delay: 6,
             stiffness: 500,
           }}
-        >3.Żyj życiem marzeń!</motion.li>
+        >3. Żyj życiem marzeń</motion.li>
 <motion.div
  initial={{ opacity: 0 }}
  animate={{ opacity: 1 }}
  transition={{
    type: "spring",
    duration: 5,
-   delay: 9,
+   delay: 8,
    stiffness: 500,
  }}>
         <Link to="/contact">
