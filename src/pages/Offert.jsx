@@ -8,7 +8,7 @@ import { FaShoppingCart } from "react-icons/fa";
 
 function Offert() {
   return (
-    <div className="w-screen h-auto z-60 flex flex-col  gap-[20%] justify-start items-center font-thin">
+    <div className="mt-40 w-screen h-auto z-60 flex flex-col  gap-[20%] justify-start items-center font-thin">
       <Menu />
       <ul id="offert" className="flex flex-col items-center justify-evenly gap-20 w-full min-h-screen py-[5%]">
         <motion.li
@@ -47,7 +47,7 @@ function Offert() {
           }}
         >2. Kup namiot</motion.li>
         <motion.a
-          className="font-thin text-xl h-min "
+          className="font-thin text-2xl h-min "
           href="https://www.decathlon.pl/sporty/turystyka-trekking/namioty-turystyczne-i-kempingowe"
           target="_blank"
           initial={{ opacity: 0 }}
@@ -59,7 +59,7 @@ function Offert() {
             stiffness: 500,
           }}><Link to="/shop">Wejdź do  naszego sklepu! <p className ="m-5 flex justify-center items-center"><FaShoppingCart size={25} /></p></Link></motion.a>
         <motion.li
-          className="uppercase text-4xl"
+          className="uppercase text-4xl flex justify-center items-center "
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{
